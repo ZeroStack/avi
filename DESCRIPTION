@@ -1,0 +1,17 @@
+Package: avi
+Title: Applied Value Investing
+Version: 0.0.0.9000
+Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Description: Calculate intrinsic value metrics
+Depends: R (>= 3.3.2)
+License: GPL
+Encoding: UTF-8
+LazyData: true
+Imports: quantmod,
+         data.table,
+         rvest,
+         TTR,
+         Quandl,
+         parallel,
+         stringr
+RoxygenNote: 6.0.1
